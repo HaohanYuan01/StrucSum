@@ -146,8 +146,8 @@ def process_documents(input_json, output_json, threshold=0.7, device="cuda",
 # ====================
 
 if __name__ == "__main__":
-    input_json = "./arxiv_test_200.json"
-    output_json = "./arxiv_test_200_graph.json"
+    input_json = "./pubmed_test_200.json"
+    output_json = "./pubmed_test_200_graph.json"
 
   
     process_documents(
@@ -159,3 +159,4 @@ if __name__ == "__main__":
         max_hop=3,
         store_paths=True
     )
+
